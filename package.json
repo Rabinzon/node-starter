@@ -10,7 +10,7 @@
     "start": "nodemon ./src/index.js",
     "lint": "eslint -c .eslintrc ./src/**/*.js",
     "prepush": "npm run lint",
-    "init": "rm rf .git && git init && git add . && git commit -m 'init'"
+    "init": "rm -rf .git && git init && git add . && git commit -m 'init'"
   },
   "devDependencies": {
     "eslint": "^3.9.1",
